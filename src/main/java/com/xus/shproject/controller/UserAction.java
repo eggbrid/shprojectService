@@ -1,13 +1,13 @@
-package com.xus.shproject.dao;
+package com.xus.shproject.controller;
 
-import com.xus.shproject.domain.Shproject;
+import org.springframework.stereotype.Controller;
 
 /**
  * 公司:  云筑网 
  * -------------- 
  * 作者:  王旭
  * 
- * 日期:  2017年3月14日
+ * 日期:  2017年3月16日
  * 说明:
  * 
  * 网站:	 http://www.yunzhuw.com/
@@ -16,7 +16,7 @@ import com.xus.shproject.domain.Shproject;
  * 说明：
  * 
  */
-public interface ShprojectDao {
-	public Shproject selectProjectByID(String id);
+@Controller
+public class UserAction {
 
 }
